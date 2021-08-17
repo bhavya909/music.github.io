@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Icons Link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="main_div">
+        <!-- <h1 id="name">Music Player</h1> -->
+        <div class="music_container">
+            <div class="top-bar">
+                <i class="material-icons">favorite_border</i>
+                <span>Now Playing</span>
+                <i class="material-icons">add</i>
+
+            </div>
+             <!-- Image -->
+            <div class="image_container">
+                <img src="image/Love Me Like You Do.png" alt="">
+            </div>
+
+            <h2 id="title">Love Me Like You Do</h2>
+            <h3 id="artist">bhavya rai</h3>
+
+            
+
+            <!-- Audio -->
+            <audio src="music/Love Me Like You Do.mp3"></audio>
+
+            <!-- Progress bar -->
+            <div class="progressbar_container" id="progress_container">
+                <div class="progress_duration_meter">
+                    <div id="current_time">0.00</div>
+                    <div id="duration">3.98</div>
+                </div>
+                <div class="progress_div" id="progress_div">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+
+            <!-- controls -->
+            <div class="music_controls">
+                <i id="repeat_plist" class="material-icons" title="playlist looped">repeat</i>
+                <i id="prev" class="material-icons">fast_rewind</i>
+                
+                <div class="play_pause" id="play_pause">
+                    <i class="material-icons">play_arrow</i>
+                </div>
+
+                <i id="next" class="material-icons next">fast_forward</i>
+                <i id="more_music" class="material-icons next">queue_music</i>
+            </div>
+<!--  
+            <div class="music_list">
+                <div class="header">
+                    <div class="row">
+                        <i class="list material-icons">queue_music</i>
+                        <span>Music list</span>
+                    </div>
+                    <i id="close" class="material-icons">close</i>
+                </div>
+                <ul>
+                    <li>
+                        <div class="row">
+                            <span>love me like you do</span>
+                            <p>bhavya jindal</p>
+                        </div>
+                        <span class="audio-duration">5.00</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>love me like you do</span>
+                            <p>bhavya jindal</p>
+                        </div>
+                        <span class="audio-duration">5.00</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>love me like you do</span>
+                            <p>bhavya jindal</p>
+                        </div>
+                        <span class="audio-duration">5.00</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>love me like you do</span>
+                            <p>bhavya jindal</p>
+                        </div>
+                        <span class="audio-duration">5.00</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>love me like you do</span>
+                            <p>bhavya jindal</p>
+                        </div>
+                        <span class="audio-duration">5.00</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>love me like you do</span>
+                            <p>bhavya jindal</p>
+                        </div>
+                        <span class="audio-duration">5.00</span>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <span>love me like you do</span>
+                            <p>bhavya jindal</p>
+                        </div>
+                        <span class="audio-duration">5.00</span>
+                    </li>
+                    
+                </ul>
+            </div>-->
+
+        </div>
+    </div>
+    <!-- Include Javascript -->
+    <script src="style.js"></script>
+</body>
+</html>
